@@ -1,0 +1,2 @@
+p1_Renamed_16S = 1-366
+p2_Renamed_COI = 367-1007
