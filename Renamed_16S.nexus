@@ -1,0 +1,62 @@
+#NEXUS
+[ TITLE ]
+BEGIN TAXA;
+       DIMENSIONS NTAX=24;
+       TAXLABELS
+             Ananteris_sp.
+             Ananteris_balzani
+             Tityus_curupi
+             Tityus_uruguayensis
+             Tityus_soratensis
+             Tityus_pictus
+             Tityus_riverai
+             Tityus_discrepans
+             Tityus_metuendus
+             Tityus_clathratus
+             Tityus_cf._bastosi
+             Tityus_paraguayensis
+             Tityus_atriventer
+             Tityus_mattogrossensis
+             Tityus_bahiensis
+             Tityus_kuryi
+             Tityus_trivittatus
+             Tityus_confluens
+             Tityus_carvalhoi
+             Isometrus_maculatus
+             Bothriurus_flavidus
+             Urophonius_brachycentrus
+             Buthus_ibericus
+             Tityus_serrulatus
+;
+END;
+BEGIN CHARACTERS;
+       DIMENSIONS NCHAR=366;
+       FORMAT MISSING=? GAP=- MATCHCHAR=. datatype=Dna;
+MATRIX
+
+Ananteris_sp.               tgaaagggaaaacta-aagaaaatctttttttattaatt-tatttaaattttaccttttagt-aaaaaggctaaaatatcttttttagacaagaagaccctataaatttttacattgttttta?----ataaaattaa--------aatgaatgttaaactggggcggttaaaaataat-taaacatttttaaat----agtaataataaaaattattatatccaaaagttttgaaaatt-aataaaatactttagggataacagcgtaatttatttttagagatcttatcg---acaaataagcttgcgacctcgatgttgaa-ttaaaatttctttattatgaaaaag-aaataatagaaggtc
+Ananteris_balzani           ggatgaagggaacta-aaaaaaatctttttttattaatt-tatttaaattttaccttttagt-aaaaaggctaaaatatcttttttagacaagaagaccctataaatctttacattatttttat----ataaaattaa--------aataaatgttaaactggggcggttagagataat-taaacatttctaaaa----aataagaattaaaatttttatatccaaaaattttgaaaatt-aataagatactttagggataacagcgtaatttatttttagagttcttatcg---acaaataagcttgcgacctcgatgttgaa-ttaaaatttctttattatgaaaaag-aaataatagaaggtc
+Tityus_curupi               atgaagagttgaccg-gagagattatctttttaataaaa-tattcaaactttaccttttagt-aaaaaggctaaaattaaccttaaagacaagaagaccctgtaaaacttcacacccaagatta----ttaatagtaa--------tttatgtgttctgctggggcggccaggaaag---taaacattcctaaat----tttcataatttaatttaaaatacctagaatttctaaaaatgaactaagctacttcagggataacagcgttatatattttgaaagtccttattg---acaaatatgtttgcgacctcgatgttgga-ttaaggtatcttttttctgcaaaag-gataaaaagaaggtc
+Tityus_uruguayensis         --gaggagttgacct-aaaaggttatctttttaataaaa-tctttcaaatttacttttcagt-aaaaaggctgaaatcaccctcaaagacaagaagaccctgtaaaactttacattttaaatta----cttctaataa-------ttttacatgttctgctggggcggccgggaaa----taaacattcctaaat----tttcataaactagcttatcatacctagaatttctaaaattaaaataagttacttcagggataacagcgttatatattttgaaagtccttattg---acaagtatgtttgcgacctcgatgttgga-ttaaggtatcttttttctgcaaaag-gataaaaagagggtc
+Tityus_soratensis           tgaaagagtcaacctaaaaaaatatttttttgatgtaat-ctattaaattttactttttagt-aaaaaggctaaaatcacccttaaagacaagaagaccctgtaaaactttacactcaacttata---ttatgcataa--------tacaagtgtttagctggggtggctaaggaa----aaaacatcctcacaa----ttttataatt-caattaccctacccagaatttctgaaactaaaataagttacttcagggataacagcgtaatatattttaaaagatcacattg---acaaatatgtttgcgacctcgatgttgga-ttggggaatcttttttctgcaaaag-gaaaaaaagaaggtc
+Tityus_pictus               tgaaagagaaaacta-aaggaataatatttttattatag-ttttccaattttactttttagt-aaaaaggctaaaattcctcttaaagacaagaagaccctgtaaaacttaacatataattatcc---tataaattaa--------atagtatgtttagctggggcggcagagaac----caaacattcttatag----tattataa---taattatcatacccagaaattctgaaaattaaacaagctacttcagggataacagcgtaatatattttgaaagatcttattg---acaagtatgtttgcgacctcgatgttgga-ttgaattatctttttttcgcaaaag-gaaaattagaaggtc
+Tityus_riverai              tgaaagagttgactt-aaaaaaaattatttttgttattt-tttttaaactttaccttttagt-aaaaaggctaaaatttttcttaaagacaagaagaccctgtaaaacttaacaatttaactct----taattaacaa--------gcacattgttcggctggggcggcagagaata---ctaacactcttagaaacaaaataatactaataattaacatacccagaatttctgaaattcaaataagctacttcagggataacagcgttatacattttgaaagacctcattg---acaaatgtgtttgcgacctcgatgttgga-ttgtgaactctttcttctgcagaag-gaaaaaaagaaggtc
+Tityus_discrepans           tgaaagagtcaacct-aaagaaaattattttttatttaa-tctccaaattttactttttagt-aaaaaggctaaaataatttttacagacaagaagaccctgtaaaactttacatattaatatt----ttaaaattaa--------aaaatatgttcagctggggcggcaaaagatt---caaacatccttagaa----taaaattat--attttaatatacccagaatttctgaaaattaaataagctacttcagggataacagcgttatatatttcaaaagaccttattg---acaaatatgtttgcgacctcgatgttgga-ttgtatttcctcttttctgaagaag-gaaaaaaaggaggtc
+Tityus_metuendus            tgaaagagttaactt-aagagaaattttttcttatattc-acatctaacctcactttttagt-aaaaaggctaaaatacttcttaaagacaagaagaccctataaaactttacacaaccatatt----tataaaataa--------accttgtgttcagctggggcggcaaagaata---ccaacactcttaaaa----attattaatcttaatttaaatacctagaaattctaaaaattaaataagctactttagggataacagcgttatacatctacagagacctaatcg---acagatgtaattgcgacctcgatgttgga-ttacaaaacctgttttctgcagaag-gaaaataagcaggtc
+Tityus_clathratus           tgaaagggaaaatca-aaaaagtactatttttattttac-ctcctaaactttacctttaagt-aaaaaggcttaaatataaattaaagacaagaagaccctgtaaatcttaacaccatacaaac----ataaaaccta--------ataaagtgttcagctggggcggcgaagaaaa---taaacatccttaaat----aataataacaaatattaacatacctagaaattctaaaaattaataaagatacttcagggataacagtgtaatttttctagaaaggccctattg---acagaaatgtttacaacctcgatgttgga-ttaataaccctcttttacgcaaaag-taaaaaaaggaggtc
+Tityus_cf._bastosi          tgaaagggaaaatca-agaaagtactatttttaatctat-cccttaaattttacctttaagt-aaaaaggcttaaatttaagttaaagacaagaagaccctgtaaatcttaacacacattaaac----ctaaaatcta--------aatacgtgttcagctggggcggcaaagaaa----taaacattcttaaat----aataataataaacattactatacctagaatttctaaaaatcaataaagatacttcagggataacagtgcaatctttctagaaagaccctattg---acagaaatgtttacaacctcgatgttgga-ttaacaaccctttcttacgcaaaag-tataaaaaggaggtc
+Tityus_paraguayensis        -------ggttatca-aaaaagcactatttttaatttac-atcctaaattttacctttaagt-aaaaaggcttaaatttcaatcaaagacaagaagaccctgtaaatcttaacatcttattaat----ttaacaccta--------aaaaaatgttcagctggggcggcaaaaaaa----taaacatttttaaat----attaataa---taattataatacctagaacttctaaaatttaatcaagatacctcagggataacagcgtaatctttctaaaaagaccttatta---acagaaatgtttacgacctcgatgttgga-ttaataaccctttcctgtgcaaaag-caagaaaaggaggtc
+Tityus_atriventer           tgaaagggaaaatcc-aaagaatactctttctaaaatac-atattaaacttcacctttgagt-aaaaaggctcaaattcaaatccaggacaagaagaccctataaatcttaacatttaagtaat----acaagactta--------ttaaaatgttcagctggggtggcaaataaa----caaacattattaact----aataataa---acttaataatacctagaaattctaaaaattaacaaagatactttagggataacagcgtaatttttctaaagagcccttattg---acagaaaagcttacgacctcgatgttgga-ttatcccccctcttttatgcaaaag-taaaaaaaggaggtc
+Tityus_mattogrossensis      tgaaaggggtcatca-aaaaagtactattttttattcacacactcaaatcttacttttaagt-aaaaaggcttaaatttaaatcaaagacaagaagaccctgtaaatcttcacatctctttagt----ttaaacccta---------aataatgtttagctggggcggcaaaaaaaa---caaacattttcaaat----tttaataa---tatttaaaatacctagaatttctaaaatttaaacaagatacttcagggataacagtgtaatgcttctaaaaagaccccattg---acaaaagcgtttacaacctcgatgttgga-ttaatagtccttttttgtgcaaaag-taaaaaaagggggtc
+Tityus_bahiensis            tgaaagaattaatca-aaaatataatattttatagttgt-atctcaaaatttactttttagtaaaaaaggctaaaataacctttatagacaagaagaccctataaatctttatattttacaatt----ttatacatta--------taataatatttagctggggcagccaaaaag----aaaacgtttttaaat----tttaatta---aattaattatacctagaacttctaaaaattaatcaagatactttagggataacagcattttctattttgaaagatcaaatta---ataaatagacacatgacctcgatgttgga-ttaaagttccatttttccgcaaaag-gaaaaaaggggggtc
+Tityus_kuryi                tgaaagagttaatta-aaaatataatattttataattat-ttcttaaaatttaccttttagt-aaaaaggctaaaataatctttatagacaaaaagaccctataaatctttacatctaataat-----ctaaaaatta--------atataatgttttgctggggcagccagaaag----taaacgtttctaaat----tttaatta---aattaattatacctagaatttctaaaacttaaccaagatactttagggataacagcattttctattttaaaagaccaaattg---ataaataaaaacgtgacctcgatgttggatttaaagtccctttttttcgcaaaag-gaaaaaaagggggtc
+Tityus_trivittatus          gatgatgattcatca-aaaatataatattttatagttgt-ttctcaaattttactttttagt-aaaaaggctaaaataatctttatagacaagaagaccctgtaaatctttacattatataatt----taataatttt--------ttataatgttctgctggggcagccagaaag----aaaatgtttctaaat----tttaatta---tatttaatatacctagaatttctaaatcttaactaagatacttcagggataacagcatcttctattttgaaagatctaatta---ataaatagacaagtgacctcgatgttgga-ttaaagttccattcttccgcaaaag-gaagaaatgggggtc
+Tityus_confluens            gatgaagatttatca-aaaatataatattttatagttgt-ttctcaaattttaccttttagt-aaaaaggctaaaataatctttatagacaagaagaccctataaatcttcacattatataatt----taatcattt---------ttttaatgttctgctggggcagctagaaag----aaaatgtttctaaat----tttaatta---tatttaatatacctagaacttctaaaatttaattaagatactttagggataacagcatcttctattttgaaagatctaatta---ataaatagacaagtgacctcgatgttgga-ttaaagttccattcttccgcaaaag-gagaaaatggaggtc
+Tityus_carvalhoi            tgaaagaatttatca-aaaatataatattttatagttgt-ttttcaaattttactttttagt-aagaaggctaagataatctttatagacaagaagaccctataaatcttcacattacacaatt----taaacaattt--------taataatgttctgctggggcagccagaaaa----aaaatatttctaaat----tctaatta---aacttaatatacctagaatttctaaaattcaattaagatactttagggataacagcatcctctattttaaaagacctaatta---ataaatagacaagtgacctcgatgttgga-ttaaagttccattcttccgcaaaag-gagaaaatggaggtc
+Isometrus_maculatus         tgaaagaatatacta--aacatttgagtttcaaatgtaa-ttcaagaattttattttttagt-aagaaagctaaaataaaactaaaagacaagaagaccctataaatcttaacatataatgga-----gtaggatttt--------attttatgttttactggggcggtagctgaag---aaaacgttcttaaaa----ttcttaga---aagtttttatatctgaaattttcaaaagtaaaataagatactttagggataacagcataatttatttagagagttcttattg---acaaataagattgtgacctcgatgttgaa-ttaaataacctttatagtgcagaagctatattaaggaggtc
+Bothriurus_flavidus         tgaacggtccgacta--aatatttttgtctcatgtttat-attttgaattttattttttaat-aaaaaagttaaaataatcttaagggacgagaagaccctattaagctttacaattagcttgt----ttgtcaacaatccaaacaataaattgtttcactggggcagtgagcaaaa---actttttgcttaaatat--tgtgaaattgtttctggagaaatcaagaaatttttaaataagaataagttactatagggataacagcataatttttttaaagagttcttatca---tcaaaaaagtttgtgacctcgatgttgga-ttaaaatacctaatttatgcagcag-tttataaaggaagtc
+Urophonius_brachycentrus    tgaacggtttgacta--aatatttttgtcttatatttat-attttgaattttatcttttgat-aaaaaagttaaaataaacttaagggacgagaagaccctatcaagctttacaatttattt------ttattttcaaactaaaaaaaagattgtttcactggggcagtgaataaaa---agtttttatttaaatat--tgtgaattcatttctagaaaaatcaataatttcttaaataggaataagttactgtagggataacagcataatttttttaaagagttctcatca---tcaaaaaagtttgtgacctcgatgttgga-ttaaaatacctaatttatgaagtag-tttataaaggaagtc
+Buthus_ibericus             tgaaagagtaaacca--ggagaatttttttttattttaa-gaaatgaactttactttttagt-aaaaaggctaaaatgattcttttagacaagaagaccctataaaactttatattttttctttaagaata??aaaag--------gaaaagtatttcactggggcggtggagaaaaa?c??tctttctttaagaa---agaaaactaactagttttagtacctagaatttctaaaaaagaaataagttactttagggataacagcttaattcacttagaaagatcaaattg---acaagtgagtttatgacctcgatgttgaa-ttaaaattccttc----------------------------
+Tityus_serrulatus           tcacgtttctatttatcaatttggtcttttaaaatagaa-aa---tgctgttatccct-----aaagtatcttgattaattttta--------gaagttctaggtattataa-----atttaat----taaaatttaa---aaacgttt-actttttagctgccccagcaa---------aacatttggatagg----------------------------------------------------------ttttaaattattaaatgtgaagatttatagggtctttttgtctataaagattattttagccttttta------ctaaaaggtaaattttaaggaataa-ttaataaatattata
+;
+END;
